@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/style.css">
-    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="/style/mobile.css">
     <title>PORTFOLIO</title>
 </head>
 <body>
@@ -13,13 +13,14 @@
         <div id="navbar-container">
             <h1 class="Logo">PORTFOLIO</h1>
             <ul id="navbar-items">
-                <li><a href="#">Inicio</a></li>
+                <li><a href="#showcase">Inicio</a></li>
                 <li><a href="#clients">Sobre</a></li>
                 <li><a href="#gallery">Galeria</a></li>
 
             </ul>
         </div>
     </nav>
+
     <header id="showcase">
             <div id="showcase-container">
                 <h2>Lorem ipsum dolor sit amet.</h2>
@@ -30,74 +31,76 @@
     </header>
 
     <!-- About-->
-    <section id="client">
+    <section id="clients">
         <div class="headline">Nossos Cliente</div>
         <div id="clients-container"><img src="/img/google.png" alt="client"></div>
         <div class="clients-container"><img src="/img/netflix.png" alt="client"></div>
         <div class="clients-container"><img src="/img/microsoft.png" alt="client"></div>
         <div class="clients-container"><img src="/img/apple.png" alt="client"></div>
     </section>
+
     <section id="features">
         <div class="headline">O que fazemos</div>
-        <div id="features-container"></div>
+        <div id="features-container">
             <div class="feature">
-                <i class="fas fa-tachometer-alt-fa3x"></i>
+                <i class="fas fa-tachometer-alt-fa 3x"></i>
                 <span class="feature-title">Lorem ipsum dolor sit amet.</span>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam dicta non ratione, dolorem tenetur officiis, deleniti itaque et, pariatur ut dolor! Iste architecto id ad assumenda vel! Mollitia, consequatur nihil!</p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, eius earum cum magni illo delectus.
+
             </div>
             <div class="feature">
-                <i class="fas fa-code fa-tachometer-alt-fa3x"></i>
+                <i class="fas fa-code fa-3x"></i>
                 <span class="feature-title">Lorem ipsum dolor sit amet.</span>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam dicta non ratione, dolorem tenetur officiis, deleniti itaque et, pariatur ut dolor! Iste architecto id ad assumenda vel! Mollitia, consequatur nihil!</p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, eius earum cum magni illo delectus.
             </div>
             <div class="feature">
-                <i class="fas fa-layer-group-fa3x"></i>
+                <i class="fas fa-layer-group-fa-3x"></i>
                 <span class="feature-title">Lorem ipsum dolor sit amet.</span>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam dicta non ratione, dolorem tenetur officiis, deleniti itaque et, pariatur ut dolor! Iste architecto id ad assumenda vel! Mollitia, consequatur nihil!</p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, eius earum cum magni illo delectus.
             </div>
+        </div>
     </section>
 
-    <section class="product">
+    <section id="product">
         <div class="headline">Nosso Produto</div>
-        <div class="product-container">
+        <div id="product-container">
             <img src="/img/iphone-x.png" alt="" class="iphone-x">
-            <div class="itens">
+            <div id="items">
                 <div class="item">
                     <i class ="fas fa-map-marked fa-2x color-primary"></i>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero velit accusamus et voluptate perferendis dolorem!</p>
+                </div>
                 <div class="item">
                     <i class ="fas fa-users fa-2x color-primary"></i>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero velit accusamus et voluptate perferendis dolorem!</p>
+                </div>    
                 <div class="item">
                     <i class ="fas fa-glass-cheers fa-2x color-primary"></i>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero velit accusamus et voluptate perferendis dolorem!</p>
+                </div>
                 <div class="item">
                     <i class="fa-solid fa-shield-halved"></i>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero velit accusamus et voluptate perferendis dolorem!</p>
-
-
                 </div>
             </div>
         </div>
     </section>
-    <div class="testimonials">
+
+    <div id="testimonials">
         <div class="headline">O que acham de nós</div>
-        <div class="testimonial-container"></div>
-        <div class="testimonial">
-            <img src="/img/person-1.jpeg" alt="" class="testimonial-image">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perspiciatis dolorem in, ea doloremque numquam libero quis atque deleniti voluptatum.</p>
-        </div>
-
+        <div id="testimonial-container"></div>
+            <div class="testimonial">
+                <img src="/img/person-1.jpeg" alt="" class="testimonial-image">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perspiciatis dolorem in, ea doloremque numquam libero quis atque deleniti voluptatum.</p>
+            </div>
+            <div class="testimonial">
+                <img src="/img/person-2.jpeg" alt="" class="testimonial-image">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perspiciatis dolorem in, ea doloremque numquam libero quis atque deleniti voluptatum.</p>
+            </div>
+        </div>    
     </div>
-        <div class="testimonial">
-            <img src="/img/person-2.jpeg" alt="" class="testimonial-image">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perspiciatis dolorem in, ea doloremque numquam libero quis atque deleniti voluptatum.</p>
-        </div>
-
     </div>
+
     <section id="gallery">
         <div class="healine">Galeria</div>
         <div id="gallery-container">
@@ -110,6 +113,7 @@
 
         </div>
     </section>
+    
     <footer id="footer">
         <p>Copyright 2023 - Todos os direitos reservados</p>
         <p>Desenvolvido por MKINFO ELETRONIC</p>
@@ -119,5 +123,11 @@
     <!--fontes awesome-->
     <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
 
+<!--jquery CDN-->
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <!--JS file-->
+    <script src="/main.js"></script>
 </body>
 </html>
