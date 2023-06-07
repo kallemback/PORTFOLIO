@@ -81,9 +81,11 @@ a {
     color: #eee;
     background: url('/img/showcase.jpg') no-repeat center center/cover;
 
+
     /* Overlay */
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: color;
+    
 }
 
 #showcase-container {
