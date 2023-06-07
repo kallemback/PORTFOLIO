@@ -11,13 +11,14 @@
   }
   a{
     text-decoration: none;
+    color: inherit;
 
   }
   body{
     font-family: 'Roboto', sans-serif;
   }
 
-  .bnt{
+  .btn{
     display: inline-block;
     padding: 15px 60px;
     font-size: 1.1rem;
@@ -41,11 +42,12 @@
   }
 
   /*nav bar */
-  #navbar{
+  #navbar {
     width: 100%;
     background: #111;
     color: #eee;
-    height: 80px;
+    height: 50px;
+    position: fixed;
   }
   #navbar-container{
     width: 80%;
@@ -98,3 +100,138 @@
     font-size: 1.2rem;
     padding: 7px 0;
   }
+
+  /*Clientes*/
+
+  #clients {
+    width: 100%;
+    background: #ffffff;
+    color: black;
+    padding: 50px;
+
+  }
+  #clients-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding: 15px;
+
+  }
+.client{
+    display: inline-block;
+    width: 25%;
+}
+
+/*about*/
+
+#features{
+    width: 100%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+
+}
+#features-container{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+    ;
+    grid-column-gap: 50px;
+
+}
+#feature {
+    display: flex;
+    flex-direction: column;
+    background: #333;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#feature.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/*Product*/
+
+#product{
+    width: 100%;
+}
+#product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#items{
+    width:650px;
+    display: flex;
+}
+
+#items .item{
+    display: flex;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+
+}
+
+/*Testimonials*/
+
+.testimonial{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #333;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#testimonials {
+    width: 100%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+
+}
+#testimonials-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonial .testimonial-image{
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin: 15px;
+}
+/*Galeria*/
+
+#gallery{
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+#gallery-container{
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-gap: 30px;
+    justify-content: center;
+}
+.gallery.image{
+    display: inline-block;
+    width: 540px;
+    height: 360px;
+    border-radius: 5px;
+}
+
+#footer{
+    background: #222;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
